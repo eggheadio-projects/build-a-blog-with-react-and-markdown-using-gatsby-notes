@@ -1,16 +1,16 @@
 # [01. Install the Latest Version of Gatsby](https://egghead.io/lessons/gatsby-install-the-latest-version-of-gatsby)
 
-## ⚠️ Important
+## ⚠️ Dealing with Deprecation
 
-> To follow the course, install the `gatsby@2.0.0-rc.28`. But take into account that `gatsby@2.0.0-rc.28` is no longer maintained and not recommended for usage. 
+> To follow the course, install `gatsby-cli@2.0.0-rc.0`. But take into account that `gatsby-cli@2.0.0-rc.0` is an old version of Gatsby. To get the latest version use `npm i gatsby-cli`.
 
 ## Install the Gatsby CLI
 
 ```bash
-npm i gatsby@2.0.0-rc.28
+npm i gatsby-cli@2.0.0-rc.0
 ```
 
-Insure that you are running the Gatsby `2.0.0-rc.28` version: 
+Insure that you are running the Gatsby `2.0.0-rc.0 version: 
 
 ```bash
 gatsby -v
@@ -24,12 +24,12 @@ gatsby new gatsby-site
 
 ## Course repo
 
-## ⚠️ Important
+## ⚠️ Dealing with Deprecation
 
-> An alternative, and recommended way to successfully follow the course is to `git clone` the course repo:
+> An alternative, and recommended way to successfully follow the course:
 
 ```bash
-git clone git@github.com:eggheadio-projects/build-a-blog-with-react-and-markdown-using-gatsby-code.git
+gatsby new git@github.com:eggheadio-projects/build-a-blog-with-react-and-markdown-using-gatsby-code.git
 ```
 
 Install dependencies:
