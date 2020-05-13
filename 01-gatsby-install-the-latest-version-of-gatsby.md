@@ -6,43 +6,43 @@ To follow the course, install the `gatsby@2.0.0-rc.28`. But take into account th
 
 ## Install the Gatsby CLI
 
-```curl
+```bash
 npm i gatsby@2.0.0-rc.28
 ```
 
 Insure that you are running the Gatsby `2.0.0-rc.28` version: 
 
-```curl
+```bash
 gatsby -v
 ```
 
 Create a new site:
 
-```
+```bash
 gatsby new gatsby-site
 ```
 
-## New Gatsby site from course repo
+## Course repo
 
-An alternative, and recommended way to successfully follow the course is to git clone the course repo.
+An alternative, and recommended way to successfully follow the course is to `git clone` the course repo:
 
-```curl
+```bash
 git clone git@github.com:eggheadio-projects/build-a-blog-with-react-and-markdown-using-gatsby-code.git
 ```
 
 Install dependencies:
 
-```
+```bash
 npm install
 ```
 
 Change directories into site folder and start development server.
 
-```
+```bash
 cd build-a-blog-with-react-and-markdown-using-gatsby-code
 ```
 
-```
+```bash
 gatsby develop
 ```
 
