@@ -24,7 +24,8 @@ gatsby new gatsby-site
 
 ## Course repo
 
-An alternative, and recommended way to successfully follow the course is to `git clone` the course repo:
+## Important ⚠️
+> An alternative, and recommended way to successfully follow the course is to `git clone` the course repo:
 
 ```bash
 git clone git@github.com:eggheadio-projects/build-a-blog-with-react-and-markdown-using-gatsby-code.git
