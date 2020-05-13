@@ -1,0 +1,1 @@
+# [08. Build Gatsby Page Slugs Dynamically from Markdown with gatsby-node.js](https://egghead.io/lessons/gatsby-build-gatsby-page-slugs-dynamically-from-markdown-with-gatsby-node-js)

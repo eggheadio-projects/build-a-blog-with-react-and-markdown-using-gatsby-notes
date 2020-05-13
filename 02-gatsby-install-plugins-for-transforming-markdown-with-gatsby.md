@@ -1,4 +1,4 @@
-## 02. Install Plugins for Transforming Markdown with Gatsby
+# [02. Install Plugins for Transforming Markdown with Gatsby](https://egghead.io/lessons/gatsby-install-plugins-for-transforming-markdown-with-gatsby)
 
 Gatsby makes use of various plugins for building static sites. Here we will install `gatsby-source-filesystem` and `gatsby-transformer-remark` to work with locally stored Markdown files.
 

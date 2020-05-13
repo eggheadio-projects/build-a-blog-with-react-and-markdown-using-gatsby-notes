@@ -1,4 +1,4 @@
-## 01. Install the Latest Version of Gatsby
+# [01. Install the Latest Version of Gatsby](https://egghead.io/lessons/gatsby-install-the-latest-version-of-gatsby)
 
 ## Important ⚠️
 

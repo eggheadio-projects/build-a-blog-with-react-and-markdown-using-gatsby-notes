@@ -1,0 +1,1 @@
+# [06. Organize React Components in a Gatsby Project](https://egghead.io/lessons/gatsby-organize-react-components-in-a-gatsby-project)

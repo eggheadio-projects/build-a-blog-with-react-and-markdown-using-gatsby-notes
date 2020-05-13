@@ -1,0 +1,1 @@
+# [05. Create a Home Layout Component with a GraphQL Query in Gatsby](https://egghead.io/lessons/gatsby-create-a-home-layout-component-with-a-graphql-query-in-gatsby)
