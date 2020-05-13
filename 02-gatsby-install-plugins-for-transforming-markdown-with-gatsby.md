@@ -6,7 +6,7 @@ Gatsby makes use of various plugins for building static sites. Here we will inst
 
 The `gatsby-source-filesytem` is what is known as a Source Plugin. Data in Gatsby sites can come from anywhere: APIs, databases, CMSs, local files etc.
 
-```
+```bash
 npm i gatsby-source-filesystem@2.0.1-beta.10
 ```
 
@@ -14,7 +14,7 @@ npm i gatsby-source-filesystem@2.0.1-beta.10
 
 The `gatsby-transformer-remark` is what is known as a Transformer Plugin. Transformer plugins take raw content from source plugins and transforms it into something more usable.
 
-```
+```bash
 npm i gatsby-transformer-remark@2.1.1-beta.5
 ```
 
