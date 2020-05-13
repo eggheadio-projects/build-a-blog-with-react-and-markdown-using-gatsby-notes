@@ -1,10 +1,13 @@
 # [07. Add a List of Posts to a Gatsby Blog with a GraphQL Page Query](https://egghead.io/lessons/gatsby-add-a-list-of-posts-to-a-gatsby-blog-with-a-graphql-page-query)
 
-# Add a List of Posts to a Gatsby Blog with a GraphQL Page Query
 
 We're going to focus on using Page queries. We can use GraphiQL to help us write our queries.
 
+## Page Query
+
 ```JS
+// src/index.js
+
 import React from "react"
 import { graphql } from "gatsby"
 import Header from "../components/Header"
@@ -39,7 +42,11 @@ export default Layout
 
 Use the console log to see the data that is being brought in by your query. You'll notice that our query is showing up under the `data` key.
 
+
+
 ```JS
+// src/index.js
+
 import React from "react"
 import { graphql } from "gatsby"
 import Header from "../components/Header"
@@ -86,6 +93,8 @@ To get our posts to display in the correct order you can go back to GraphiQL and
 One of them is `sort`. We can sort on fields in this case it will be `frontmatter___date` and provide it an order of `DESC`.
 
 ```JS
+// src/index.js
+
 export const query = graphql`
 query HomepageQuery {
   allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {
