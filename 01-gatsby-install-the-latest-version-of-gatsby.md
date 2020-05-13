@@ -2,7 +2,7 @@
 
 ## Important ⚠️
 
-To follow the course, install the `gatsby@2.0.0-rc.28`. But take into account that `gatsby@2.0.0-rc.28` is no longer maintained and not recommended for usage. 
+> To follow the course, install the `gatsby@2.0.0-rc.28`. But take into account that `gatsby@2.0.0-rc.28` is no longer maintained and not recommended for usage. 
 
 ## Install the Gatsby CLI
 
