@@ -45,7 +45,7 @@ graphql`
 
 ## ⚠️ Dealing with Deprecation
 
-> StaticQuery does not work with raw React.createElement calls; please use JSX, e.g. <StaticQuery />
+> StaticQuery does not work with raw React.createElement calls; please use JSX, e.g. `<StaticQuery />`
 
 ## StaticQuery
 
