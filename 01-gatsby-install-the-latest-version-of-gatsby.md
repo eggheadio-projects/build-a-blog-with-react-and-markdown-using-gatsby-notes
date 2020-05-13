@@ -1,6 +1,6 @@
 # [01. Install the Latest Version of Gatsby](https://egghead.io/lessons/gatsby-install-the-latest-version-of-gatsby)
 
-## Important ⚠️
+## ⚠️ Important
 
 > To follow the course, install the `gatsby@2.0.0-rc.28`. But take into account that `gatsby@2.0.0-rc.28` is no longer maintained and not recommended for usage. 
 
@@ -24,7 +24,8 @@ gatsby new gatsby-site
 
 ## Course repo
 
-## Important ⚠️
+## ⚠️ Important
+
 > An alternative, and recommended way to successfully follow the course is to `git clone` the course repo:
 
 ```bash
