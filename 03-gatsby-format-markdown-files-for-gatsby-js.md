@@ -22,6 +22,6 @@ Lorem ipsum.
 
 Follow this pattern for all of your posts.
 
-## ⚠️ Important
+## ⚠️ Dealing with Deprecation
 
 You can have multiple instances of this plugin to read source nodes from different locations on your filesystem.

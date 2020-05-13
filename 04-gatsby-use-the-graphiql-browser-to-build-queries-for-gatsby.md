@@ -4,7 +4,7 @@ GraphiQL is the GraphQL integrated development environment (IDE). It’s a power
 
 You can access it when your site’s development server is running—normally at `http://localhost:8000/___graphql`.
 
-## ⚠️ Important 
+## ⚠️ Dealing with Deprecation
 
 This is the new way to query file nodes. It's important to add `query MyQuery`.
 
