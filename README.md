@@ -12,7 +12,7 @@ In this course, you’ll build a Gatsby site that transforms Markdown documents 
 # Table of Contents
 
 - [01. Install the Latest Version of Gatsby](01-gatsby-install-the-latest-version-of-gatsby.md)
-- [02. Install Plugins for Transforming Markdown with Gatsby](02-gatsby-install-plugins-for-transforming-markdown-with-gatsby)
+- [02. Install Plugins for Transforming Markdown with Gatsby](02-gatsby-install-plugins-for-transforming-markdown-with-gatsby.md)
 - [03. Format Markdown Files for Gatsby.js](03-gatsby-format-markdown-files-for-gatsby-js.md)
 - [04. Use the GraphiQL Browser to Build Queries for Gatsby](04-gatsby-use-the-graphiql-browser-to-build-queries-for-gatsby.md)
 - [05. Create a Home Layout Component with a GraphQL Query in Gatsby](05-gatsby-create-a-home-layout-component-with-a-graphql-query-in-gatsby.md)
