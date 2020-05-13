@@ -4,6 +4,24 @@ GraphiQL is the GraphQL integrated development environment (IDE). It’s a power
 
 You can access it when your site’s development server is running—normally at `http://localhost:8000/___graphql`.
 
+## ⚠️ Important 
+
+This is the new way to query file nodes. It's important to add `query MyQuery`.
+
+```graphql
+query MyQuery {
+  allFile {
+    edges {
+      node {
+        extension
+        dir
+        modifiedTime
+      }
+    }
+  }
+}
+```
+
 ## Adding GraphiQL Input
 
 This was the data that was fetched from the gatsby-config.js file.
