@@ -41,6 +41,8 @@ const Template = (props) => {
 
 This is going to render the HTML from the query
 
+## Render Data 
+
 Let's add a title. We have our title and our post showing up. We can click back to the home page. We see that all of our posts have pages now. Added a little bit of style. We're good to go.
 
 ```js
