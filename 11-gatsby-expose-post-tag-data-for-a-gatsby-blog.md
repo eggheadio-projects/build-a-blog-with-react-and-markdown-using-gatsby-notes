@@ -21,9 +21,7 @@ const AllTagsTemplates = ({data}) => {
 export defualt AllTagsTemplate
 ```
 
-Go to `gatsby-node.js` and create a new function called `createTagPages`.
-
-`createTagPages` will take in createPage and the list of posts. 
+Go to `gatsby-node.js` and create a new function called `createTagPages`. And `createTagPages` will take in `createPage` and the list of posts. 
 
 ```js
 const createTagPages = (createPage, posts) => {
@@ -49,9 +47,7 @@ posts.forEach(({node}) => {
 
 ## Dynamically create a key
 
-We are dynamically creating a key for each of our tags. Each of those keys will have an array of the posts that use that tag. We should have a built up object that has each of our tags represented with an array of nodes for each one. 
-
-Now, we'll create a master list of all of the tags. We'll do `const tags = Object.keys(postsByTag)`.
+We are dynamically creating a key for each of our tags. Each of those keys will have an array of the posts that use that tag. 
 
 Now call createPage. Our path will be `'/tags'`. The component will be the `allTagsIndexTemplate`. The context that we're going to pass will be called tags and it will be `tags.sort`, so this will be a sorted list of all of our tags.
 
@@ -80,17 +76,21 @@ createTagPages(createPage, posts)
 Now on our `/tags` page, hit reload, and we see that our `/tags` page is being created.
 
 ```js
-const AllTagsTemplate = ({data,pageContext}) => {
+import React from "react"
+import { graphql, Link } from 'gatsby'
 
-console.log(pageContext)
-return (
-
-<div>
-  <div>
-    tags here
-  </div>
-</div>)
+const AllTagsTemplate = ({data, pageContext}) => {
+ console.log(pageContext)
+  return (
+    <div style={{fontFamily: 'avenir'}}>
+      <div>
+        tags here
+      </div>
+    </div>
+  )
 }
+
+export default AllTagsTemplate
 ```
 
 Data is what's used for a query that would be inside of this template and `pageContext` is what gets passed from `gatsby-node.js`.
