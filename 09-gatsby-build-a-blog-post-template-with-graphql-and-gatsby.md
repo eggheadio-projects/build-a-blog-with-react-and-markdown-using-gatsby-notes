@@ -62,3 +62,8 @@ const Template = ({data}) => {
   )
 }
 ```
+
+## Resources
+
+- [Programmatically Creating Pages](https://www.gatsbyjs.org/docs/mdx/programmatically-creating-pages/#make-a-template-for-your-posts)
+- [Make a template for your posts](https://www.gatsbyjs.org/docs/mdx/programmatically-creating-pages/#make-a-template-for-your-posts)

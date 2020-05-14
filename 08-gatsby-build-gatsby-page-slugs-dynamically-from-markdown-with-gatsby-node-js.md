@@ -95,3 +95,8 @@ Gatsby calls the `createPages` API (if present) at build time with injected para
 
 If you're following the video lesson. The `graphql` call returns a promise, so we can just return that directly. No need to call it again. 
 
+
+## Resources
+
+- [Creating Slugs for Pages](https://www.gatsbyjs.org/docs/creating-slugs-for-pages/)
+- [Create slugs in gatsby-node.js](https://www.gatsbyjs.org/docs/creating-slugs-for-pages/#create-slugs-in-gatsby-nodejs)

@@ -117,3 +117,8 @@ In your query be sure to include the tags key:
     }
   }
 ```
+
+## Resources
+
+- [Creating Tags Pages for Blog Posts](https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/)
+- [Render tags inline with your blog posts](https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/#optional-render-tags-inline-with-your-blog-posts)

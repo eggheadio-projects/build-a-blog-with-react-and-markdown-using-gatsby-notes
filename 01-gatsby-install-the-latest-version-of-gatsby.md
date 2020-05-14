@@ -29,7 +29,7 @@ Gatsby will start a hot-reloading development environment accessible by default 
 
 Try editing the JavaScript pages in `src/pages`. Saved changes will live reload in the browser.
 
-## Dealing with Deprecation
+## ⚠️ Dealing with Deprecation
 
 The `v2` branch is no longer present on the `gatsbyjs/gatsby-starter-hello-world` instead use:
 

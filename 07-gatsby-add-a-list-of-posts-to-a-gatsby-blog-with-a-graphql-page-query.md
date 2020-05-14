@@ -113,3 +113,8 @@ query HomepageQuery {
 `
 ```
 
+
+
+## Resources
+
+- [Adding a List of Markdown Blog Posts](https://www.gatsbyjs.org/docs/adding-a-list-of-markdown-blog-posts/)

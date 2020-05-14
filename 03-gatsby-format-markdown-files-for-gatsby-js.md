@@ -25,3 +25,8 @@ Follow this pattern for all of your posts.
 ## ⚠️ Dealing with Deprecation
 
 You can have multiple instances of this plugin to read source nodes from different locations on your filesystem.
+
+
+## Resources
+
+- [Create a list of your site’s markdown files](https://www.gatsbyjs.org/tutorial/part-six/#create-a-list-of-your-sites-markdown-files-in-srcpagesindexjs)

@@ -133,3 +133,7 @@ const Layout = () => {
 
 export default Layout
 ```
+
+## Resources
+
+- [Layout Components](https://www.gatsbyjs.org/docs/layout-components/#gatsbys-approach-to-layouts)

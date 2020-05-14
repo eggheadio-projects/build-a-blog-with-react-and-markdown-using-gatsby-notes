@@ -90,3 +90,8 @@ const Template = ({data, pageContext}) => {
 }
 ```
 
+
+
+## Resources
+
+- [Adding Pagination](https://www.gatsbyjs.org/docs/adding-pagination/#other-resources)

@@ -79,3 +79,7 @@ export default Layout
 ```
 
 Now if you check your page it should still work as expected.
+
+## Resources
+
+- [React in Gatsby](https://www.gatsbyjs.org/docs/glossary/react/)

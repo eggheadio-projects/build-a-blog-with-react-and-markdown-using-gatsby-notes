@@ -38,3 +38,8 @@ module.exports = {
   ]
 }
 ```
+
+## Resources
+
+- [Recipes: Transforming Data](https://www.gatsbyjs.org/docs/recipes/transforming-data/)
+- [What do transformer plugins do?](https://www.gatsbyjs.org/docs/creating-a-transformer-plugin/#what-do-transformer-plugins-do)

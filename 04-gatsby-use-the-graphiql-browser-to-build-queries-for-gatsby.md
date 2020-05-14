@@ -61,3 +61,9 @@ query MyQuery {
 ```
 
 You should expect this to return JSON to return all of the front matter from your different markdown files. Also you can think of edges as the file paths and node as the individual markdown files.
+
+
+## Resources
+
+- [Build a page with a GraphQL query](https://www.gatsbyjs.org/tutorial/part-five/#build-a-page-with-a-graphql-query)
+- [Data in Gatsby](https://www.gatsbyjs.org/tutorial/part-four/)

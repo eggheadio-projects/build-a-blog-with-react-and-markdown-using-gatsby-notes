@@ -94,3 +94,7 @@ And finally, go back to our `allTagsIndex`, and add a leading slash.
   </Link>
 </li>
 ```
+
+## Resources
+
+- [Using page.context](https://www.gatsbyjs.org/docs/gatsby-internals-terminology/#pagecontext)

@@ -30,3 +30,7 @@ Remember to add your deploy settings with the below options (if needed):
 Branch to deploy: the default is `master`.
 Build Command: the default is `npm run build`.
 Publish directory: the default is `public`.
+
+## Resources
+
+- [Deploying to Netlify](https://www.gatsbyjs.org/docs/deploying-to-netlify/)
