@@ -1,26 +1,5 @@
 # [01. Install the Latest Version of Gatsby](https://egghead.io/lessons/gatsby-install-the-latest-version-of-gatsby)
 
-## ⚠️ Dealing with Deprecation
-
-> To follow the course, install `gatsby-cli@2.0.0-rc.0`. But take into account that `gatsby-cli@2.0.0-rc.0` is an old version of Gatsby. To get the latest version use `npm i gatsby-cli`.
-
-## Install the Gatsby CLI
-
-```bash
-npm i gatsby-cli@2.0.0-rc.0
-```
-
-Insure that you are running the Gatsby `2.0.0-rc.0 version: 
-
-```bash
-gatsby -v
-```
-
-Create a new site:
-
-```bash
-gatsby new gatsby-site
-```
 
 ## Course repo
 
