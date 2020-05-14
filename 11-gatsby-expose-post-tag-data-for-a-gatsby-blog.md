@@ -101,9 +101,9 @@ In your query be sure to include the tags key:
   edges {
     node {
       frontmatter {
-      path
-      title
-      tags
+        path
+        title
+        tags
       }
     }
   }
