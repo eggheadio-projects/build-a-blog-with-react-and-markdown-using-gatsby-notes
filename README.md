@@ -32,9 +32,8 @@ In this course, you’ll build a Gatsby site that transforms Markdown documents 
 - [12. Use PageContext to Display Tags in Gatsby](12-gatsby-use-pagecontext-to-display-tags-in-gatsby.md)
 - [13. Deploy a Gatsby Site with Netlify](13-gatsby-deploy-a-gatsby-site-with-netlify.md)
 
-## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+## Contributors 
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -49,4 +48,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
