@@ -80,8 +80,6 @@ export default SingleTagTemplate
 We got to browse by `Tag link`, click it, and we get to `/tags`.
 
 ```js
-// index.js
-
 <div>
   <Link to='/tags'>Browse by Tag</Link>
 </div>
@@ -90,8 +88,6 @@ We got to browse by `Tag link`, click it, and we get to `/tags`.
 And finally, go back to our `allTagsIndex`, and add a leading slash.
 
 ```js
-// allTagsIndex.js
-
 <li key={index}>
   <Link to={`/tags/${tagName}`}>
     {tagName}
