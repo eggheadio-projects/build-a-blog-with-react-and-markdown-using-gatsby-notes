@@ -2,7 +2,7 @@
 
 Gatsby includes several Node APIs for building sites. In this lesson, we’ll use the `createPages` API to dynamically build a page for each of our posts, by using the URL path in the front matter of each Markdown doc found via a GraphQL query.
 
-# 📕 Notes
+## 📕 Notes
 
 ## Page template
 
@@ -93,8 +93,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
 Gatsby calls the `createPages` API (if present) at build time with injected parameters, `actions` and `graphql`.
 
-# ⚠️ Important
+## ⚠️ Important
 
 If you're following the video lesson. The `graphql` call returns a promise, so we can just return that directly. No need to call it again. 
 
-# ⚙️ Resources
+## ⚙️ Resources
