@@ -1,17 +1,10 @@
 # [01. Install the Latest Version of Gatsby](https://egghead.io/lessons/gatsby-install-the-latest-version-of-gatsby)
 
 
-## Course repo
+## 📕 Notes
 
-## ⚠️ Dealing with Deprecation
 
-The `v2` branch is no longer present on the `gatsbyjs/gatsby-starter-hello-world` instead use:
-
-```bash
-gatsby new my-blog https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
-
-> An alternative, and recommended way to successfully follow the course:
+It's recommended to use the course repo to successfully follow the course:
 
 ```bash
 gatsby new git@github.com:eggheadio-projects/build-a-blog-with-react-and-markdown-using-gatsby-code.git
@@ -38,3 +31,16 @@ Gatsby will start a hot-reloading development environment accessible by default 
 ## Start development server
 
 Try editing the JavaScript pages in `src/pages`. Saved changes will live reload in the browser.
+
+## ⚠️ Dealing with Deprecation
+
+The `v2` branch is no longer present on the `gatsbyjs/gatsby-starter-hello-world` instead use:
+
+```bash
+gatsby new my-blog https://github.com/gatsbyjs/gatsby-starter-hello-world
+```
+
+## ⚙️ Resources
+
+- [Set Up Your Development Environment | GatsbyJS](https://www.gatsbyjs.org/tutorial/part-zero/)
+- [Get to Know Gatsby Building Blocks](https://www.gatsbyjs.org/tutorial/part-one/)
