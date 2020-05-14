@@ -2,7 +2,7 @@
 
 In this lesson we will prepare Tag browsing templates, and update `gatsby-node.js` to use GraphQL to query for tags in our Markdown posts.
 
-## Query to get all tags
+## All Tags Template
 
 
 ```js
@@ -25,24 +25,33 @@ Go to `gatsby-node.js` and create a new function called `createTagPages`. And `c
 
 ```js
 const createTagPages = (createPage, posts) => {
-  const allTagIndexTemplate = path.resolve('src/templates/allTagsIndex.js')
+  const allTagsIndexTemplate = path.resolve('src/templates/allTagsIndex.js')
   const singleTagIndexTemplate = path.resolve('src/templates/singleTagIndex.js')
+
+  const postsByTag = {}
+
+  posts.forEach(({node}) => {
+    if (node.frontmatter.tags) {
+      node.frontmatter.tags.forEach(tag => {
+        if (!postsByTag[tag]) {
+          postsByTag[tag] = []
+        }
+
+        postsByTag[tag].push(node)
+      })
+    }
+  })
+
+  const tags = Object.keys(postsByTag)
+
+  createPage({
+    path: '/tags',
+    component: allTagsIndexTemplate,
+    context: {
+      tags: tags.sort()
+    }
+  })
 }
-```
-
-```js
-const postByTag = {}
-
-posts.forEach(({node}) => {
-  if (node.frontmatter.tags) {
-    node.frontmatter.tags.forEach(tag => {
-      if(!postsByTag[tag]) {
-        postsByTag[tag] = []
-      }
-      postsByTag[tag].push(node)
-    })
-  }
-})
 ```
 
 ## Dynamically create a key
@@ -101,9 +110,9 @@ In your query be sure to include the tags key:
   edges {
     node {
       frontmatter {
-      path
-      title
-      tags
+        path
+        title
+        tags
       }
     }
   }
