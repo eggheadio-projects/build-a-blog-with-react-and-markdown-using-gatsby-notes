@@ -5,6 +5,12 @@
 
 ## ⚠️ Dealing with Deprecation
 
+The `v2` branch is no longer present on the `gatsbyjs/gatsby-starter-hello-world` instead use:
+
+```bash
+gatsby new my-blog https://github.com/gatsbyjs/gatsby-starter-hello-world
+```
+
 > An alternative, and recommended way to successfully follow the course:
 
 ```bash
