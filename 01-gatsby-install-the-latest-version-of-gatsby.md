@@ -28,7 +28,7 @@ gatsby develop
 
 Gatsby will start a hot-reloading development environment accessible by default at http://localhost:8000.
 
-## Start development server
+### Start development server
 
 Try editing the JavaScript pages in `src/pages`. Saved changes will live reload in the browser.
 
