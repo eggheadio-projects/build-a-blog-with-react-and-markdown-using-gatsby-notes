@@ -5,6 +5,10 @@
 
 These notes are intended to be used and studied in tandem with Taylor Bell's [Build a Blog with React and Markdown using Gatsby](https://egghead.io/courses/build-a-blog-with-react-and-markdown-using-gatsby) course.
 
+# Instructor
+
+[Taylor Bell](https://egghead.io/instructors/taylor-bell)
+
 # Course Goal
 
 In this course, you’ll build a Gatsby site that transforms Markdown documents from your local filesystem into HTML. From there, you’ll use GraphQL to query posts for displaying on an index page, link between posts, and group posts by tags. After your site has been compiled, you’ll see how to deploy it via Github Pages.
@@ -24,3 +28,11 @@ In this course, you’ll build a Gatsby site that transforms Markdown documents 
 - [11. Expose Post Tag Data for a Gatsby Blog](11-gatsby-expose-post-tag-data-for-a-gatsby-blog.md)
 - [12. Use PageContext to Display Tags in Gatsby](12-gatsby-use-pagecontext-to-display-tags-in-gatsby.md)
 - [13. Deploy a Gatsby Site with Netlify](13-gatsby-deploy-a-gatsby-site-with-netlify.md)
+
+# Emoji Key
+
+|  Emoji      	    |   Definition                |
+|:-:	              |---	                        |
+|  :closed_book:    |   Notes                     |
+|  :warning: 	      |   Dealing with Deprecation 	|
+|  :gear:          	|   Resources	                |
