@@ -1,4 +1,7 @@
 # Build a Blog with React and Markdown using Gatsby
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/157/full/EGH_GatsbyBlog.png" width="200"></p>
 
@@ -28,3 +31,22 @@ In this course, you’ll build a Gatsby site that transforms Markdown documents 
 - [11. Expose Post Tag Data for a Gatsby Blog](11-gatsby-expose-post-tag-data-for-a-gatsby-blog.md)
 - [12. Use PageContext to Display Tags in Gatsby](12-gatsby-use-pagecontext-to-display-tags-in-gatsby.md)
 - [13. Deploy a Gatsby Site with Netlify](13-gatsby-deploy-a-gatsby-site-with-netlify.md)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="#content-laurosilvacom" title="Content">🖋</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
