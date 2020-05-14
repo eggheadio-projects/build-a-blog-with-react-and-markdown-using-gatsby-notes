@@ -1,6 +1,6 @@
 # [08. Build Gatsby Page Slugs Dynamically from Markdown with gatsby-node.js](https://egghead.io/lessons/gatsby-build-gatsby-page-slugs-dynamically-from-markdown-with-gatsby-node-js)
 
-Gatsby includes several Node APIs for building sites. In this lesson, we’ll use the `createPages` API to dynamically build a page for each of our posts, by using the URL path in the frontmatter of each Markdown doc found via a GraphQL query.
+Gatsby includes several Node APIs for building sites. In this lesson, we’ll use the `createPages` API to dynamically build a page for each of our posts, by using the URL path in the front matter of each Markdown doc found via a GraphQL query.
 
 ## Page template
 
