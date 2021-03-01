@@ -16,6 +16,49 @@ These notes are intended to be used and studied in tandem with Taylor Bell's [Bu
 
 In this course, you’ll build a Gatsby site that transforms Markdown documents from your local filesystem into HTML. From there, you’ll use GraphQL to query posts for displaying on an index page, link between posts, and group posts by tags. After your site has been compiled, you’ll see how to deploy it via Github Pages.
 
+# ⚠️ Deprecations 
+## [01. Install the Latest Version of Gatsby](01-gatsby-install-the-latest-version-of-gatsby.md)\
+  
+The `v2` branch is no longer present on the `gatsbyjs/gatsby-starter-hello-world` instead use:
+
+```bash
+gatsby new my-blog https://github.com/gatsbyjs/gatsby-starter-hello-world
+```
+## [03. Format Markdown Files for Gatsby.js](03-gatsby-format-markdown-files-for-gatsby-js.md)
+
+You can have multiple instances of this plugin to read source nodes from different locations on your filesystem.
+
+
+## [04. Use the GraphiQL Browser to Build Queries for Gatsby](04-gatsby-use-the-graphiql-browser-to-build-queries-for-gatsby.md)
+
+This is the new way to query file nodes. It's important to add `query MyQuery`.
+
+```graphql
+query MyQuery {
+  allFile {
+    edges {
+      node {
+        extension
+        dir
+        modifiedTime
+      }
+    }
+  }
+}
+```
+## [05. Create a Home Layout Component with a GraphQL Query in Gatsby](05-gatsby-create-a-home-layout-component-with-a-graphql-query-in-gatsby.md)
+
+StaticQuery does not work with raw `React.createElement` calls; please use JSX, e.g. `<StaticQuery />`
+
+## [13. Deploy a Gatsby Site with Netlify](13-gatsby-deploy-a-gatsby-site-with-netlify.md)
+It's also possible to deploy the entire Gatsby website to Netlify. Click on the `Deploy site` button and Netlify will start the `build` and `deploy` process you have specified. You can go to the `Deploys tab` and see the process unfold in the `Deploy log`. After a few moments, it will give you the live site URL, e.g., `random-name.netlify.com`.
+
+Remember to add your deploy settings with the below options (if needed):
+
+Branch to deploy: the default is `main`.
+Build Command: the default is `npm run build`.
+Publish directory: the default is `public`.
+
 # Table of Contents
 
 - [01. Install the Latest Version of Gatsby](01-gatsby-install-the-latest-version-of-gatsby.md)
