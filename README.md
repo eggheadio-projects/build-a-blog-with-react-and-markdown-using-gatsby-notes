@@ -18,7 +18,7 @@ In this course, you’ll build a Gatsby site that transforms Markdown documents 
 
 # ⚠️ Deprecations
 
-## [01. Install the Latest Version of Gatsby](01-gatsby-install-the-latest-version-of-gatsby.md)\
+## [01. Install the Latest Version of Gatsby](01-gatsby-install-the-latest-version-of-gatsby.md)
   
 The `v2` branch is no longer present on the `gatsbyjs/gatsby-starter-hello-world` instead use:
 
