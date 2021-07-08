@@ -18,7 +18,7 @@ The `gatsby-transformer-remark` is what is known as a Transformer Plugin. Transf
 npm i gatsby-transformer-remark@2.1.1-beta.5
 ```
 
-##  Create `gatsby-conifg.js`
+##  Create `gatsby-config.js`
 
 ```js
 module.exports = {
